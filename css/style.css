@@ -547,33 +547,29 @@ section{
 
 .search-form form{
     display: flex;
-    gap: 1.3rem;
-    margin: 3 5 2 5rem;
-    
-}
-
-.search-form form .box{
+    gap:1.3rem;
+ }
+ 
+ .search-form form .box{
     width: 100%;
-    border: var(--border);
-    padding: 1.4rem;
+    border:var(--border);
+    padding:1.4rem;
     font-size: 1.8rem;
-    color: var(--black);
-}
-
-.search-form form .fa-search{
+    color:var(--black);
+ }
+ 
+ .search-form form .fa-search{
     width: 6rem;
     background-color: var(--black);
-    color: var(--white);
+    color:var(--white);
     cursor: pointer;
-    font-size: 2rem;
-}
-
-.search-form form .fa-search:hover{
+    font-size: 2.5rem;
+ }
+ 
+ .search-form form .fa-search:hover{
     background-color: var(--yellow);
-    color: var(--black);
-}
-
-
+    color:var(--black);
+ }
 
 
 
