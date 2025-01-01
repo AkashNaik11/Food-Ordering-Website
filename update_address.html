@@ -51,7 +51,29 @@
 
 
 
-    <!------------------- footer section start ---------------------------->
+
+    <section class="form-container">
+        <form action="" method="post">
+            <h3>Your Address</h3>
+            <input type="text" class="box" placeholder="Flat no. and building name" required maxlength="50" name="flat">
+            <input type="text" class="box" placeholder="street name" required maxlength="50" name="street">
+            <input type="text" class="box" placeholder="city name" required maxlength="50" name="city">
+            <input type="text" class="box" placeholder="state name" required maxlength="50" name="state">
+            <input type="text" class="box" placeholder="country name" required maxlength="50" name="country">
+            <input type="number" class="box" onkeydown="if(this.value.length==6)return false;" placeholder="Zip code / pincode" required max="999999" min="0" name="pin_code">
+
+            <input type="submit" value="Save Address" name="Submit" class="btn">
+    
+    </section>
+
+
+
+
+
+
+
+<!------------------- footer section start ---------------------------->
+    
     <footer class="footer">
         <section class="grid">
             <div class="box">
